@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
     "test": "jest"
   },
   "dependencies": {
@@ -11,7 +11,8 @@
     "appcenter-analytics": "^1.8.0",
     "appcenter-crashes": "^1.8.0",
     "react": "16.4.1",
-    "react-native": "0.56.0"
+    "react-native": "0.56.0",
+    "react-native-device-info": "^0.22.5"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
